@@ -1,5 +1,5 @@
-### Hi there 👋
-
+<!--### Hi there 👋
+-->
 <!--
 **nicolaspastrian/nicolaspastrian** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+<h1>Nicolas Pastrian</h1>
 # Nicolas Pastrian
 ## PhD Candidate in Economics
 ### University of Pittsburgh
