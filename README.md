@@ -17,6 +17,6 @@ Here are some ideas to get you started:
 
 # Nicolas Pastrian
 ## PhD Candidate in Economics
-### University of Pittsburgh
+## University of Pittsburgh
 
 I'm a microeconomic theorist working on Mechanism Design, Market Design, and Information Economics. My current work focus on problems with asymmetric information and bounded-rational agents.
