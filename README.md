@@ -14,7 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<h1>Nicolas Pastrian</h1>
 
 # Nicolas Pastrian
 ## PhD Candidate in Economics
