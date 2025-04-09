@@ -1,39 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style> 
-		p {text-align: left;}
-		.p1 {font-family: "Lucida Console"; text-align: left;}
-		.p2 {font-family: "Lucida Console"; text-align: left;}
-		details {text-align: left;}
-		.p3 {font-family: "Lucida Console"; text-align: justify; width: 1000px;}
-	</style>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1, h2, h3 {
+            font-family: "Lucida Console", monospace;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        p {
+            text-align: left;
+        }
+        details {
+            margin-bottom: 15px;
+        }
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .paper-title {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-<h1 class=p1>Nicolas Pastrian</h1>
-<h2 class=p1>Postdoctoral Research Fellow</h2>
-<h3 class=p1>ESOMAS Department, University of Turin</h3>
-<div style="text-align: left;">
-	<img src="jmpicture.jpg" width="350">
-</div>
-  
-<p class=p1>I'm a microeconomic theorist working on Mechanism Design, Market Design, and Information Economics. <br />
-	My current work focus on problems with asymmetric information and boundedly rational agents.</p>
-<h1 class=p1> Working papers</h1>
-<p class=p2> Product Line Design with Frictions </p>
-	<details>
-	<summary>Abstract </summary>
-		
-	<p>We study a monopolistic screening problem with boundedly rational buyers and a noisy communication technology. In particular, the seller will be able to design a menu with a finite number of quality-price pairs but the buyers will not be able to observe the full menu. Instead, buyers will have access only to a finite number of samples from the menu of alternatives offered by the seller and then decide which alternative to purchase if any. This procedure give arise to random consideration sets from the perspective of the buyers. We show that if there is a single sample available, the seller will optimally choose to offer a single alternative, while if two samples are available then neither offering a single alternative nor two alternatives is necessarily optimal.</p></details>
-	
-<p class=p3> Full Surplus Extraction and Consideration Sets (submitted)</p>
-	 <details>
-  <summary>Abstract</summary>
-  
-  <p class=p3>We examine the surplus extraction problem in a mechanism design setting with consideration sets. We model consideration sets as the subset of types a particular type considers as possible deviations. Our model is built upon a discrete version of the reduced mechanism design problem in McAfee and Reny (1992), and the partially verifiable types in Green and Laffont (1986) for the modeling of consideration sets. We identify the inverse consideration sets as the key elements to determine whether full surplus extraction is feasible or not, and characterize the conditions that guarantee full surplus extraction to be feasible in this setting. We show that the independence condition identified by Cremer and McLean (1988) remains sufficient for full surplus extraction in our setting but could be relaxed to obtain a more general characterization. Finally, we discuss some applications and limitations of our model.</p></details>
+<h1>Nicolas Pastrian</h1>
+<h2>Postdoctoral Research Fellow</h2>
+<h3>ESOMAS Department, University of Turin</h3>
 
-  <!--<p></p>-->
+<img src="jmpicture.jpg" width="350" alt="Profile Picture">
+  
+<p>I'm a microeconomic theorist working on Mechanism Design, Market Design, and Information Economics. <br>
+    My current work focuses on problems with asymmetric information and boundedly rational agents.</p>
+
+<h1>Working Papers</h1>
+
+<p class="paper-title">Product Line Design with Frictions</p>
+<details>
+    <summary>Abstract</summary>
+    <p>We study a monopolistic screening problem with boundedly rational buyers and a noisy communication technology. In particular, the seller will be able to design a menu with a finite number of quality-price pairs but the buyers will not be able to observe the full menu. Instead, buyers will have access only to a finite number of samples from the menu of alternatives offered by the seller and then decide which alternative to purchase if any. This procedure gives rise to random consideration sets from the perspective of the buyers. We show that if there is a single sample available, the seller will optimally choose to offer a single alternative, while if two samples are available then neither offering a single alternative nor two alternatives is necessarily optimal.</p>
+</details>
+
+<p class="paper-title">Full Surplus Extraction and Consideration Sets (submitted)</p>
+<details>
+    <summary>Abstract</summary>
+    <p>We examine the surplus extraction problem in a mechanism design setting with consideration sets. We model consideration sets as the subset of types a particular type considers as possible deviations. Our model is built upon a discrete version of the reduced mechanism design problem in McAfee and Reny (1992), and the partially verifiable types in Green and Laffont (1986) for the modeling of consideration sets. We identify the inverse consideration sets as the key elements to determine whether full surplus extraction is feasible or not, and characterize the conditions that guarantee full surplus extraction to be feasible in this setting. We show that the independence condition identified by Cremer and McLean (1988) remains sufficient for full surplus extraction in our setting but could be relaxed to obtain a more general characterization. Finally, we discuss some applications and limitations of our model.</p>
+</details>
+
 </body>
 </html>
-
