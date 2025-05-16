@@ -25,10 +25,12 @@
     #profpic {
         float: right;
         margin: 0 0 15px 15px;
-        width: 350
-        max-width: 100%;
-        height: auto;
-     
+        width: 350px;       /* desired normal width */
+        max-width: 100%;    /* shrink if container is smaller */
+        height: auto;       /* maintain aspect ratio */
+        display: block;
+        /*width: 350*/
+        /*max-width: 100%;*/     
     }
 
     p {
