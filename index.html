@@ -4,12 +4,17 @@
  <style>
     body {
         font-family: Arial, sans-serif;
-        max-width: 800px;
-        margin: 0;
-        padding: 20px;
-        line-height: 1.6;
         background-color: #2b2b2b; /* neutral dark gray */
         color: #ffffff; /* white text */
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
     }
 
     h1, h2, h3 {
@@ -25,12 +30,10 @@
     #profpic {
         float: right;
         margin: 0 0 15px 15px;
-        width: 350px;       /* desired normal width */
-        max-width: 100%;    /* shrink if container is smaller */
-        height: auto;       /* maintain aspect ratio */
+        width: 350px;
+        max-width: 100%;
+        height: auto;
         display: block;
-        /*width: 350*/
-        /*max-width: 100%;*/     
     }
 
     p {
@@ -39,22 +42,20 @@
 
     details {
         margin-bottom: 15px;
-        background-color: #2b2b2b; /* same as body */
+        background-color: #2b2b2b;
         padding: 10px;
-        /*border-left: 3px solid #555555; /* subtle gray accent */
-        /*border-radius: 5px;*/
     }
 
     summary {
         font-weight: bold;
         cursor: pointer;
-        color: #ffffff; /* now pure white */
+        color: #ffffff;
     }
 
     .paper-title {
         font-weight: bold;
         margin-top: 20px;
-        color: #ffffff; /* now pure white */
+        color: #ffffff;
     }
 
     a {
@@ -65,44 +66,40 @@
         color: #cccccc;
     }
 </style>
-
 </head>
 <body>
+  <div class="container">
 
-<h1>Nicolas Pastrian</h1>
-<h2>Postdoctoral Research Fellow</h2>
-<h3>ESOMAS Department, University of Turin</h3>
+    <h1>Nicolas Pastrian</h1>
+    <h2>Postdoctoral Research Fellow</h2>
+    <h3>ESOMAS Department, University of Turin</h3>
 
-<img id="profpic" src="profile.jpg" alt="Profile Picture">
+    <img id="profpic" src="profile.jpg" alt="Profile Picture">
 
-<p>Hi!</p> 
+    <p>Hi!</p> 
 
-<p>I am a microeconomic theorist working on (Behavioral) Mechanism/Market Design and Information Economics. <br>My current work focuses on problems with asymmetric information and boundedly rational agents.</p>
+    <p>I am a microeconomic theorist working on (Behavioral) Mechanism/Market Design and Information Economics. <br>My current work focuses on problems with asymmetric information and boundedly rational agents.</p>
 
-<p>I am a Postdoctoral Research Fellow in the <a href="https://www.esomas.unito.it/" target="_blank">Department of Economics, Social Studies, Applied Mathematics, and Statistics (ESOMAS) at the University of Turin</a>, Italy.</p>
- 
-<p>I received my Ph.D. in Economics from the University of Pittsburgh.<br> I am originally from Chile, where I graduated with a BA in Economics and Business and an MA in Economics from Pontificia Universidad Católica de Chile.</p>
+    <p>I am a Postdoctoral Research Fellow in the <a href="https://www.esomas.unito.it/" target="_blank">Department of Economics, Social Studies, Applied Mathematics, and Statistics (ESOMAS) at the University of Turin</a>, Italy.</p>
+    
+    <p>I received my Ph.D. in Economics from the University of Pittsburgh.<br> I am originally from Chile, where I graduated with a BA in Economics and Business and an MA in Economics from Pontificia Universidad Católica de Chile.</p>
 
- <p><a href="https://nrpastrian.github.io/files/cv.pdf">Link to CV</a></p>
+    <p><a href="https://nrpastrian.github.io/files/cv.pdf">Link to CV</a></p>
 
- 
- 
-<!--<p>I'm a microeconomic theorist working on Mechanism Design, Market Design, and Information Economics. <br>
-    My current work focuses on problems with asymmetric information and boundedly rational agents.</p>-->
+    <h1>Working Papers</h1>
 
-<h1>Working Papers</h1>
+    <p class="paper-title">Product Line Design with Frictions</p>
+    <details>
+        <summary>Abstract</summary>
+        <p>We study a monopolistic screening problem with boundedly rational buyers and a noisy communication technology... </p>
+    </details>
 
-<p class="paper-title">Product Line Design with Frictions</p>
-<details>
-    <summary>Abstract</summary>
-    <p>We study a monopolistic screening problem with boundedly rational buyers and a noisy communication technology. In particular, the seller will be able to design a menu with a finite number of quality-price pairs but the buyers will not be able to observe the full menu. Instead, buyers will have access only to a finite number of samples from the menu of alternatives offered by the seller and then decide which alternative to purchase if any. This procedure gives rise to random consideration sets from the perspective of the buyers. We show that if there is a single sample available, the seller will optimally choose to offer a single alternative, while if two samples are available then neither offering a single alternative nor two alternatives is necessarily optimal.</p>
-</details>
+    <p class="paper-title">Full Surplus Extraction and Consideration Sets (submitted)</p>
+    <details>
+        <summary>Abstract</summary>
+        <p>We examine the surplus extraction problem in a mechanism design setting with consideration sets... </p>
+    </details>
 
-<p class="paper-title">Full Surplus Extraction and Consideration Sets (submitted)</p>
-<details>
-    <summary>Abstract</summary>
-    <p>We examine the surplus extraction problem in a mechanism design setting with consideration sets. We model consideration sets as the subset of types a particular type considers as possible deviations. Our model is built upon a discrete version of the reduced mechanism design problem in McAfee and Reny (1992), and the partially verifiable types in Green and Laffont (1986) for the modeling of consideration sets. We identify the inverse consideration sets as the key elements to determine whether full surplus extraction is feasible or not, and characterize the conditions that guarantee full surplus extraction to be feasible in this setting. We show that the independence condition identified by Cremer and McLean (1988) remains sufficient for full surplus extraction in our setting but could be relaxed to obtain a more general characterization. Finally, we discuss some applications and limitations of our model.</p>
-</details>
-
+  </div>
 </body>
 </html>
