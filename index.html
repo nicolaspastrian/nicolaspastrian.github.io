@@ -1,51 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
+ <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #2b2b2b;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #2b2b2b; /* neutral dark gray */
+        color: #ffffff; /* white text */
+        margin: 0;
+        padding: 0;
     }
 
     .container {
-      max-width: 1000px;  /* Increased width */
-      margin: 0 auto;
-      padding: 20px;
-      line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 1.6;
     }
 
     h1, h2, h3 {
-      font-family: "Lucida Console", monospace;
-      color: #ffffff;
+        font-family: "Lucida Console", monospace;
+        color: #ffffff;
     }
 
-    .intro {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-      flex-wrap: wrap; /* Wrap on smaller screens */
+    img {
+        display: block;
+        margin: 20px auto;
     }
 
     #profpic {
-      width: 300px;
-      max-width: 100%;
-      height: auto;
-    }
-
-    .text {
-      flex: 1;
-      min-width: 300px;
+        float: right;
+        margin: 0 0 15px 15px;
+        width: 350px;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
 
     p {
-      text-align: left;
+        text-align: left;
     }
 
     details {
-      margin-bottom: 15px;
-      background-color: #2b2b2b;
-      padding: 10px;
+        margin-bottom: 15px;
+        background-color: #2b2b2b;
+        padding: 10px;
     }
+
+    summary {
+        font-weight: bold;
+        cursor: pointer;
+        color: #ffffff;
+    }
+
+    .paper-title {
+        font-weight: bold;
+        margin-top: 20px;
+        color: #ffffff;
+    }
+
+    a {
+        color: #ffffff;
+    }
+
+    a:hover {
+        color: #cccccc;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <h1>Nicolas Pastrian</h1>
+    <h2>Postdoctoral Research Fellow</h2>
+    <h3>ESOMAS Department, University of Turin</h3>
+
+    <img id="profpic" src="profile.jpg" alt="Profile Picture">
+
+    <p>Hi!</p> 
+
+    <p>I am a microeconomic theorist working on (Behavioral) Mechanism/Market Design and Information Economics. <br>My current work focuses on problems with asymmetric information and boundedly rational agents.</p>
+
+    <p>I am a Postdoctoral Research Fellow in the <a href="https://www.esomas.unito.it/" target="_blank">Department of Economics, Social Studies, Applied Mathematics, and Statistics (ESOMAS) at the University of Turin</a>, Italy.</p>
+    
+    <p>I received my Ph.D. in Economics from the University of Pittsburgh.<br> I am originally from Chile, where I graduated with a BA in Economics and Business and an MA in Economics from Pontificia Universidad Católica de Chile.</p>
+
+    <p><a href="https://nrpastrian.github.io/files/cv.pdf">Link to CV</a></p>
+
+    <h1>Working Papers</h1>
+
+    <p class="paper-title">Product Line Design with Frictions</p>
+    <details>
+        <summary>Abstract</summary>
+        <p>We study a monopolistic screening problem with boundedly rational buyers and a noisy communication technology... </p>
+    </details>
+
+    <p class="paper-title">Full Surplus Extraction and Consideration Sets (submitted)</p>
+    <details>
+        <summary>Abstract</summary>
+        <p>We examine the surplus extraction problem in a mechanism design setting with consideration sets... </p>
+    </details>
+
+  </div>
+</body>
+</html>
