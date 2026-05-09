@@ -19,4 +19,4 @@ Here are some ideas to get you started:
 ## Assistant Professor
 ## ICSo, Universidad de O'Higgins, Chile
 
-I'm a microeconomic theorist working on Market Design and Information Economics. My current research focuses on: (1) studying agents' and firms' behavior in settings with information frictions (e.g., asymmetric information, search costs, choice overload, inertia), especially in the presence of market power, (2) what types of regulation can help mitigate inefficiencies in markets where those frictions cannot be fully eliminated or directly controlled, and (3) how economic and political institutions interact in these types of markets.
+I'm a microeconomic theorist working on Behavioral Mechanism/Market Design and Information Economics. My current research focuses on studying My current research focuses on studying how firms and institutions adapt to environments with boundedly rational agents and information frictions.
